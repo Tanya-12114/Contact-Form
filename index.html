@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="contact-wrapper">
+        <div class="contact-card">
+            <div class="card-left">
+                <div>
+                    <h2 class="contact-heading">CONTACT US</h2>
+                    <img src="image.png" alt="" class="contact-image">
+                </div>
+            </div>
+            <div class="card-right">
+                <form id="contactForm" novalidate>
+                    <input type="text" id="name" placeholder="Name" />
+                    <div class="error" id="nameError"></div>
+
+                    <input type="email" id="email" placeholder="Email" />
+                    <div class="error" id="emailError"></div>
+
+                    <textarea id="message" placeholder="Message..."></textarea>
+                    <div class="error" id="messageError"></div>
+
+                    <button type="submit">Submit</button>
+                    <div class="success" id="successMsg"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

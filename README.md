@@ -6,7 +6,7 @@ A modern, responsive contact form built using **HTML**, **CSS**, and **JavaScrip
 
 Click below to view the site:
 
-👉 [https://tanya-12114.github.io/MyPortfolio/](https://tanya-12114.github.io/Contact-Form/)
+👉 [https://tanya-12114.github.io/Contact-Form/](https://tanya-12114.github.io/Contact-Form/)
 
 ## Features
 
